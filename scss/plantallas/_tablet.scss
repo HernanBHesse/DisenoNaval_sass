@@ -1,0 +1,226 @@
+/* Tamaño mediano tablet */
+
+@media (max-width: 768px) {
+
+    body {
+        background-color: #4d5dfb;
+        background-image: linear-gradient(315deg, #4d5dfb 0%, #08c8f6 74%);
+    }
+
+    /* Header general */
+
+    .header--general {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0;
+        padding: 0;
+        height: min-content;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .logo img {
+        display: none;
+    }
+
+    header label {
+        visibility: visible;
+        margin: 0.5rem;
+        padding: 0 0.5rem;
+        border: 3px solid black;
+        border-radius: 30%;
+        box-shadow: 3px 3px 5px 0px $fondoSombra--debil;
+    }
+
+    .menu--general {
+        height: 0;
+        transform: translate(-100%);
+
+        ul {
+            display: flex;
+            flex-direction: column;
+
+            li {
+                margin: 0;
+                padding: 0;
+            }
+
+            ul li {
+                display: none;
+            }
+        }
+    }
+
+    #btn-menu:checked~.menu--general {
+        height: auto;
+        transform: translate(0%);
+        transition: all 0.5s;
+
+    }
+
+    /* Icono submenu */
+
+    .fa-sort-down {
+        visibility: hidden;
+        width: 0;
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    /* Footer general */
+
+    .footer__padre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer__informacion {
+        padding: 0;
+    }
+
+    .footer__redes a {
+        padding: 0.5rem;
+    }
+
+    .fa-facebook {
+        font-size: 1.5rem;
+    }
+
+    .fa-instagram {
+        font-size: 1.5rem;
+    }
+
+    .fa-linkedin {
+        font-size: 1.5rem;
+    }
+
+    .footer__suscripcion {
+        display: none;
+    }
+
+    .fa-whatsapp {
+        margin: 0;
+        padding: 0.3rem;
+        bottom: 1rem;
+        right: 1rem;
+        font-size: 2rem;
+    }
+
+    .footer__copyright {
+        font-size: 1rem;
+    }
+
+    /* Inicio */
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .imagenInicio,
+    .imagenNosotros {
+        display: none;
+    }
+
+    .textoNosotros {
+        padding: 1rem;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    h2,
+    h3 {
+        padding: 0 0 0.5rem 0;
+        font-size: 1.5rem;
+    }
+
+    .index__link--proyectos {
+        grid-area: 1 / 1 / 2 / 3;
+        justify-self: center;
+        align-self: stretch;
+    }
+
+    .indexProyectos__img--A {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .indexProyectos__img--B {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    .indexProyectos__img--C {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    .indexProyectos__img--D {
+        grid-area: 3 / 2 / 4 / 3;
+    }
+
+    /* Noticias */
+
+    .article1--noticias {
+        grid-area: 3 / 1 / 4 / 5;
+        justify-self: center;
+        align-self: center;
+        margin: 0.5rem;
+    }
+
+    .article2--noticias {
+        grid-area: 5 / 1 / 6 / 5;
+        justify-self: center;
+        align-self: center;
+        margin: 0.5rem;
+    }
+
+    .article1--noticias iframe,
+    .article2--noticias iframe {
+        display: none;
+    }
+
+    .oculto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem;
+        font-size: 1rem;
+        color: #000;
+    }
+
+    .noticia img {
+        width: 50%;
+    }
+
+    /* Proyectos */
+
+    h4 {
+        padding: 0 0 0.5rem 0;
+        font-size: 1.2rem;
+        font-weight: 900;
+        letter-spacing: 0;
+    }
+
+    .contenedor__img--barco {
+        justify-self: center;
+        align-self: center;
+        margin: 0.3rem;
+    }
+
+    .img--proyecto {
+        width: 15rem;
+    }
+
+    .texto--barco {
+        padding: 0.3rem;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    /* Nosotros */
+    /* No es necesario alterar más el contenido */
+    /*Formulario*/
+    /* No es necesario alterar más el contenido */
+}
