@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="../assets/icons/barco-de-papel-16px.png">
+    <!--Link Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <!-- link de bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Inicio - DN</title>
+</head>
+
+<body>
+    <div class="grilla--inicio">
+        <header class="header--general header--inicio">
+            <a href="./index.html" class="logo">
+                <img src="./assets/icons/barco-de-papel-128px.png" alt="Logo de barco" class="logo" title="Inicio">
+            </a>
+            <!-- Menus -->
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu" class="boton"><i class="fas fa-bars"></i></label>
+            <nav class="menu--general">
+                <ul>
+                    <li><a href="./index.html" class="linkActive">Inicio</a></li>
+                    <li><a href="./pages/noticias.html">Noticias</a></li>
+                    <!-- Submenu -->
+                    <li class="submenu"><a href="./pages/proyectos.html">Proyectos<i class="fas fa-sort-down"></i></a>
+                        <ul>
+                            <li><a href="./pages/proyectos.html#finalizados">Finalizados</a></li>
+                            <li><a href="./pages/proyectos.html#enObra">En obra</a></li>
+                            <li><a href="./pages/proyectos.html#prototipos">Prototipos</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./pages/nosotros.html">Nosotros</a></li>
+                    <li><a href="./pages/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="section1--inicio fondo">
+            <div class="banner titulo--inicio">
+                <h1>Diseño Naval S.A.</h1>
+            </div>
+            <div class="imagenInicio">
+                <img src="./assets/img/barco-de-papel-512px.png" alt="imagenInicio">
+            </div>
+            <div>
+                <p class="textoNosotros textoNosotros--inicio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel expedita
+                    totam hic
+                    aliquam! Corporis laudantium reprehenderit deleniti officia dolores. Quo excepturi aspernatur odit
+                    libero totam recusandae minima consequuntur, explicabo deleniti ullam! Accusantium eveniet
+                    consectetur, delectus saepe quaerat cum sapiente error incidunt, nesciunt et totam in fuga debitis
+                    deleniti eum eligendi numquam fugiat atque odio ea harum quas asperiores. Similique maiores, placeat
+                    fuga numquam sit enim rem! Cumque odio omnis eius et quisquam quaerat. Vel numquam, eligendi autem
+                    non doloremque accusamus esse pariatur praesentium ea laudantium amet nostrum temporibus nobis! Non
+                    deleniti cum voluptatibus! Sapiente, optio.
+                </p>
+            </div>
+        </section>
+        <section class="section2--inicio fondo">
+            <div class="d-flex justify-content-center">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="./pages/proyectos.html#barcoA">
+                                <img src="./assets/img/barcoA.jpg" class="d-block img-fluid p-3 rounded"
+                                    alt="barcoA">
+                            </a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <p class="h3">Barco A</p>
+                                <p class="h5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae,
+                                    asperiores?</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="./pages/proyectos.html#barcoB">
+                                <img src="./assets/img/barcoB.jpg" class="d-block img-fluid p-3 rounded"
+                                    alt="barcoB">
+                            </a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <p class="h3">Barco B</p>
+                                <p class="h5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae,
+                                    asperiores?</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="./pages/proyectos.html#barcoC">
+                                <img src="./assets/img/barcoC.jpg" class="d-block img-fluid p-3 rounded"
+                                    alt="barcoC">
+                            </a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <p class="h3">Barco C</p>
+                                <p class="h5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae,
+                                    asperiores?</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="./pages/proyectos.html#barcoC">
+                                <img src="./assets/img/barcoD.jpg" class="d-block img-fluid p-3 rounded"
+                                    alt="barcoC">
+                            </a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <p class="h3">Barco D</p>
+                                <p class="h5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae,
+                                    asperiores?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- Inicio del Footer -->
+        <footer class="footer--general footer--inicio fondo">
+            <div class="footer__padre">
+                <!-- Datos -->
+                <div class="footer__informacion">
+                    <p>Direccion: Un calle y un numero</p>
+                    <p>Mail: unmail@unmail.com.ar</p>
+                </div>
+                <!-- Redes -->
+                <div class="footer__redes">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://ar.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <!-- Suscripcion -->
+                <div class="footer__suscripcion">
+                    <p>Suscribite para recibir novedades</p>
+                    <form action="#" method="get">
+                        <input type="email" placeholder=" Ingresa tu mail" name="Suscripcion" class="suscripcion--texto"
+                            required>
+                        <input type="submit" for="suscribir" value="Suscribirme" class="suscripcion--boton">
+                    </form>
+                </div>
+            </div>
+            <!-- Boton de Whatsapp -->
+            <div>
+                <a href="https://wa.me/541149463421/?text=Excelente%20trabajo" target="_blank"><i
+                        class="fab fa-whatsapp"></i></a>
+            </div>
+            <!-- Copyright -->
+            <div class="footer__copyright">
+                <p>Copyright</p>
+            </div>
+        </footer>
+    </div>
+    <!-- Link FontAwsome -->
+    <script src="https://kit.fontawesome.com/94f2547df1.js" crossorigin="anonymous"></script>
+    <!-- link js bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
+
+<!-- Pagina de diseñador naval Hernán Bustamante Hesse -->
