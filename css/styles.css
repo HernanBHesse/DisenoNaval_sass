@@ -466,3 +466,25 @@ h4 {
 
 .footer--proyectos {
   grid-area: 6 / 1 / 7 / 5; }
+
+/* Nosotros */
+.grilla--nosotros {
+  display: grid;
+  grid-auto-columns: auto;
+  grid-auto-rows: auto; }
+
+.header--nosotros {
+  grid-area: 1 / 1 / 2 / 5; }
+
+.section1--nosotros {
+  grid-area: 2 / 1 / 5 / 5;
+  justify-self: center;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  width: 90vw; }
+
+.footer-nosotros {
+  grid-area: 5 / 1 / 6 / 5; }
