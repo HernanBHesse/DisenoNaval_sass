@@ -488,3 +488,64 @@ h4 {
 
 .footer-nosotros {
   grid-area: 5 / 1 / 6 / 5; }
+
+/*Formulario*/
+.grilla--contacto {
+  display: grid;
+  grid-auto-columns: auto;
+  grid-auto-rows: auto; }
+
+.header--contacto {
+  grid-area: 1 / 1 / 2 / 5; }
+
+.formulario--contacto {
+  grid-area: 2 / 1 / 5 / 5; }
+
+.formulario--contacto {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem auto;
+  padding: 1.5rem 1rem;
+  width: 80%;
+  text-align: center; }
+
+.form__label {
+  display: inline-block;
+  width: 60%;
+  text-align: left;
+  color: #000;
+  font-weight: 600; }
+
+.form__input,
+.form__textarea {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 60%;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 1rem;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem; }
+
+.form__textarea {
+  height: 5rem;
+  resize: none; }
+
+.form__input:focus,
+.form__textarea:focus {
+  outline: none; }
+
+.form__input--submit {
+  margin-top: 1.5rem;
+  font-weight: 700;
+  background-color: #c87d5d;
+  border-radius: 1rem;
+  border-bottom: none;
+  cursor: pointer; }
+
+.form__input--submit:hover {
+  background-color: #a7684d; }
+
+.footer--contacto {
+  grid-area: 5 / 1 / 6 / 5; }
