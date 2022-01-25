@@ -9,14 +9,14 @@
     margin: 1rem;
     padding: 1rem;
     width: 96vw;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 900;
 }
 
 .footer__padre {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .footer__informacion {
@@ -30,7 +30,6 @@
 
 .footer__redes a {
     padding: 1rem;
-    font-size: 4rem;
 }
 
 .footer__redes i {
@@ -38,7 +37,6 @@
 }
 
 .fa-facebook {
-    font-size: 2rem;
     background-color: #2b4170;
     background: -webkit-linear-gradient(top, #3b5998, #2b4170);
     -webkit-background-clip: text;
@@ -47,7 +45,6 @@
 }
 
 .fa-instagram {
-    font-size: 2rem;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     -webkit-background-clip: text;
     background-clip: text;
@@ -61,7 +58,6 @@
 }
 
 .fa-linkedin {
-    font-size: 2rem;
     background: #2867B2;
     -webkit-background-clip: text;
     background-clip: text;
@@ -75,14 +71,11 @@
 .footer__suscripcion {
     display: flex;
     flex-direction: column;
-    padding: 0 3rem 0 0;
 }
 
 .footer__suscripcion form input {
     margin: 0.5rem;
     padding: 0.5rem;
-    font-size: 1.3rem;
-    font-weight: 900;
     border: none;
     border-radius: 0.5rem;
     background-color: #ffffff;
@@ -119,5 +112,5 @@
 .footer__copyright {
     text-align: center;
     font-style: italic;
-    font-weight: 900;
+    font-weight: 500;
 }
