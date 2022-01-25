@@ -349,3 +349,120 @@ h3 {
 
 .footer--noticias {
   grid-area: 6 / 1 / 7 / 5; }
+
+/* Proyectos */
+.grilla--proyectos {
+  display: grid;
+  grid-auto-columns: auto;
+  grid-auto-rows: auto;
+  min-height: 100vh; }
+
+.header--proyectos {
+  grid-area: 1 / 1 / 2 / 5; }
+
+.section1--proyectos {
+  grid-area: 2 / 1 / 3 / 5;
+  justify-self: center;
+  align-self: stretch; }
+
+.contenedor--estado {
+  margin: 0.5rem 0.5rem 1rem 1rem; }
+
+.contenedor__titulo--estado {
+  justify-self: center;
+  align-self: center;
+  text-align: center; }
+
+.contenedor__titulo--proyectos {
+  justify-self: center;
+  align-self: stretch; }
+
+h4 {
+  padding: 0 0 0.5rem 0;
+  font-size: 2.5rem;
+  font-weight: 900;
+  letter-spacing: 0.5rem; }
+
+.contenedor__img--barco {
+  justify-self: center;
+  align-self: center;
+  margin: 1rem; }
+
+.img--proyecto {
+  width: 30rem;
+  border-radius: 0.5rem;
+  box-shadow: 3px 3px 5px 0px #0000004d; }
+
+.texto--barco {
+  justify-self: center;
+  align-self: center;
+  padding: 1rem;
+  text-align: left;
+  font-size: 1.8rem;
+  font-weight: 500; }
+
+.contenedor--finalizados {
+  grid-area: 3 / 1 / 4 / 5;
+  display: grid;
+  grid-auto-columns: auto;
+  grid-auto-rows: auto; }
+
+.titulo--finalizados {
+  grid-area: 1 / 1 / 2 / 4; }
+
+.titulo--barcoA {
+  grid-area: 2 / 1 / 3 / 2; }
+
+.img--barcoA {
+  grid-area: 3 / 1 / 5 / 2; }
+
+.texto--barcoA {
+  grid-area: 3 / 2 / 5 / 4; }
+
+.titulo--barcoB {
+  grid-area: 5 / 1 / 6 / 2; }
+
+.img--barcoB {
+  grid-area: 6 / 1 / 8 / 2; }
+
+.texto--barcoB {
+  grid-area: 6 / 2 / 8 / 4; }
+
+.contenedor--enObra {
+  display: grid;
+  grid-auto-columns: auto;
+  grid-auto-rows: auto;
+  grid-area: 4 / 1 / 5 / 5; }
+
+.titulo--enObra {
+  grid-area: 1 / 1 / 2 / 4; }
+
+.titulo--barcoC {
+  grid-area: 2 / 1 / 3 / 2; }
+
+.img--barcoC {
+  grid-area: 3 / 1 / 5 / 2; }
+
+.texto--barcoC {
+  grid-area: 3 / 2 / 5 / 4; }
+
+.contenedor--prototipos {
+  display: grid;
+  grid-auto-columns: auto;
+  grid-auto-rows: auto;
+  grid-area: 5 / 1 / 6 / 5; }
+
+.titulo--prototipos {
+  grid-area: 1 / 1 / 2 / 4; }
+
+.titulo--barcoD {
+  grid-area: 2 / 1 / 3 / 2; }
+
+.img--barcoD {
+  grid-area: 3 / 1 / 5 / 2; }
+
+.texto--barcoD {
+  grid-area: 3 / 2 / 5 / 4; }
+
+.footer--proyectos {
+  grid-area: 6 / 1 / 7 / 5; }
