@@ -1,0 +1,24 @@
+// Fondo para el body en las diferentes paginas y tamaño
+
+%fondoBody--grande {
+    background-color: #182b3a;
+    background-image: linear-gradient(315deg, #182b3a 0%, #20a4f3 74%);
+}
+
+%fondoBody--mediano {
+    background-color: #4d5dfb;
+    background-image: linear-gradient(315deg, #4d5dfb 0%, #08c8f6 74%);
+}
+
+%fondoBody--chico {
+    background-color: #7fcec5;
+    background-image: linear-gradient(315deg, #7fcec5 0%, #14557b 74%);
+}
+
+// Fondo para las diferentes secciones
+
+%fondoBloques {
+    background-color: #ffffff80;
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px 5px 0px #0000004d;
+}
