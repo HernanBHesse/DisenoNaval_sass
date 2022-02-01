@@ -386,12 +386,6 @@ h4 {
   justify-self: center;
   align-self: stretch; }
 
-h4 {
-  padding: 0 0 0.5rem 0;
-  font-size: 2rem;
-  font-weight: 900;
-  letter-spacing: 0.5rem; }
-
 .contenedor__img--barco {
   justify-self: center;
   align-self: center;
@@ -407,7 +401,7 @@ h4 {
   align-self: center;
   padding: 1rem;
   text-align: left;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 500; }
 
 .contenedor--finalizados {

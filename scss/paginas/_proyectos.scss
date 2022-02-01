@@ -1,9 +1,7 @@
 /* Proyectos */
 
 .grilla--proyectos {
-    display: grid;
-    grid-auto-columns: auto;
-    grid-auto-rows: auto;
+    @include gridEstilo (grid, auto, auto);
     min-height: 100vh;
 }
 
@@ -13,8 +11,7 @@
 
 .section1--proyectos {
     grid-area: 2 / 1 / 3 / 5;
-    justify-self: center;
-    align-self: stretch;
+    @include centrado (center, stretch);
 }
 
 .contenedor--estado {
@@ -22,26 +19,16 @@
 }
 
 .contenedor__titulo--estado {
-    justify-self: center;
-    align-self: center;
+    @include centrado (center, center);
     text-align: center;
 }
 
 .contenedor__titulo--proyectos {
-    justify-self: center;
-    align-self: stretch;
-}
-
-h4 {
-    padding: 0 0 0.5rem 0;
-    font-size: 2rem;
-    font-weight: 900;
-    letter-spacing: 0.5rem;
+    @include centrado (center, stretch);
 }
 
 .contenedor__img--barco {
-    justify-self: center;
-    align-self: center;
+    @include centrado (center, center);
     margin: 1rem;
 }
 
@@ -52,19 +39,15 @@ h4 {
 }
 
 .texto--barco {
-    justify-self: center;
-    align-self: center;
+    @include centrado (center, center);
     padding: 1rem;
     text-align: left;
-    font-size: 1.5rem;
-    font-weight: 500;
+    @include texto (1.2rem, 500);
 }
 
 .contenedor--finalizados {
     grid-area: 3 / 1 / 4 / 5;
-    display: grid;
-    grid-auto-columns: auto;
-    grid-auto-rows: auto;
+    @include gridEstilo (grid, auto, auto);
 }
 
 .titulo--finalizados {
@@ -96,9 +79,7 @@ h4 {
 }
 
 .contenedor--enObra {
-    display: grid;
-    grid-auto-columns: auto;
-    grid-auto-rows: auto;
+    @include gridEstilo (grid, auto, auto);
     grid-area: 4 / 1 / 5 / 5;
 }
 
@@ -119,9 +100,7 @@ h4 {
 }
 
 .contenedor--prototipos {
-    display: grid;
-    grid-auto-columns: auto;
-    grid-auto-rows: auto;
+    @include gridEstilo (grid, auto, auto);
     grid-area: 5 / 1 / 6 / 5;
 }
 
