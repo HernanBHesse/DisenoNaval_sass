@@ -1,9 +1,7 @@
 /*Formulario*/
 
 .grilla--contacto {
-    display: grid;
-    grid-auto-columns: auto;
-    grid-auto-rows: auto;
+    @include gridEstilo (grid, auto, auto);
 }
 
 .header--contacto {
