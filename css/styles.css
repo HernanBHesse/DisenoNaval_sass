@@ -214,22 +214,11 @@ header ul li:hover ul {
   font-weight: 500; }
 
 /* Inicio */
-.textoNosotros, .texto--barco {
-  padding: 1rem;
-  font-size: 1rem;
-  font-weight: 600; }
-
-.grilla--inicio, .section1--inicio {
-  display: grid;
-  grid-auto-columns: auto;
-  grid-auto-rows: auto; }
-
-.section1--inicio, .section2--inicio {
-  justify-self: center;
-  align-self: center; }
-
 .grilla--inicio {
+  display: grid;
   grid-auto-flow: column;
+  grid-auto-columns: auto;
+  grid-auto-rows: auto;
   min-height: 100vh; }
 
 .header--inicio {
@@ -239,7 +228,12 @@ header ul li:hover ul {
   grid-area: 2 / 1 / 5 / 5;
   justify-self: center;
   margin: 1rem;
-  width: 80vw; }
+  width: 80vw;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center; }
 
 .titulo--inicio {
   grid-area: 1 / 1 / 2 / 3; }
@@ -282,8 +276,15 @@ h1 {
 .imagenNosotros img {
   height: 20rem; }
 
+.textoNosotros {
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 600; }
+
 .section2--inicio {
   grid-area: 5 / 1 / 7 / 5;
+  justify-self: center;
+  align-self: center;
   width: 80%; }
 
 h2,
@@ -390,7 +391,9 @@ h4 {
   justify-self: center;
   align-self: center;
   padding: 1rem;
-  text-align: left; }
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 500; }
 
 .contenedor--finalizados {
   grid-area: 3 / 1 / 4 / 5;
