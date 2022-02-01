@@ -1,9 +1,7 @@
 /* Nosotros */
 
 .grilla--nosotros {
-    display: grid;
-    grid-auto-columns: auto;
-    grid-auto-rows: auto;
+    @include gridEstilo (grid, auto, auto);
 }
 
 .header--nosotros {
@@ -12,8 +10,7 @@
 
 .section1--nosotros {
     grid-area: 2 / 1 / 5 / 5;
-    justify-self: center;
-    align-self: stretch;
+    @include centrado (center, stretch);
     display: flex;
     flex-direction: column;
     align-items: center;
