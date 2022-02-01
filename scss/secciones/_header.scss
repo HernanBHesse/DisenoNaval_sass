@@ -1,8 +1,7 @@
 /* Header general */
 
 .header--general {
-    justify-self: center;
-    align-self: center;
+    @include centrado (center, center);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,8 +9,7 @@
     padding: 0.3rem;
     min-height: 2rem;
     width: 96vw;
-    font-size: 1.5rem;
-    font-weight: 900;
+    @include texto (1.5rem, 900);
     background-color: $fondoHeader;
     border-radius: 0.5rem;
     box-shadow: 3px 3px 5px 0px $fondoSombra--debil;

@@ -1,8 +1,4 @@
 /* Inicio */
-
-@import './variables/tipografias';
-@import './variables/grillas';
-
 .grilla--inicio {
     @include gridEstilo (grid, auto, auto);
     grid-auto-flow: column;
