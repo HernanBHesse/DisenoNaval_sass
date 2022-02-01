@@ -1,9 +1,9 @@
 /* Noticias */
 
-@import './variables/grillas';
-
 .grilla--noticias {
-    @extend %gridAuto;
+    display: grid;
+    grid-auto-columns: auto;
+    grid-auto-rows: auto;
     min-height: 100vh;
 }
 
@@ -13,7 +13,8 @@
 
 .section1--noticias {
     grid-area: 2 / 1 / 3 / 5;
-    @extend %centrado;
+    justify-self: center;
+    align-self: center;
 }
 
 .article1--noticias {

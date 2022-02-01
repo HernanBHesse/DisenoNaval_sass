@@ -1,10 +1,10 @@
-%gridAuto {
-    display: grid;
-    grid-auto-columns: auto;
-    grid-auto-rows: auto;
+@mixin gridEstilo ($display, $gColumns, $gRows) {
+    display: $display;
+    grid-auto-columns: $gColumns;
+    grid-auto-rows: $gRows;
 }
 
-%centrado {
-    justify-self: center;
-    align-self: center;
+@mixin centrado ($jSelf, $aSelf) {
+    justify-self: $jSelf;
+    align-self: $aSelf;
 }

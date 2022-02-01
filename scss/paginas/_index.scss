@@ -4,7 +4,7 @@
 @import './variables/grillas';
 
 .grilla--inicio {
-    @extend %gridAuto;
+    @include gridEstilo (grid, auto, auto);
     grid-auto-flow: column;
     min-height: 100vh;
 }
@@ -18,8 +18,8 @@
     justify-self: center;
     margin: 1rem;
     width: 80vw;
-    @extend %gridAuto;
-    @extend %centrado;
+    @include gridEstilo (grid, auto, auto);
+    @include centrado (center, center);
 }
 
 .titulo--inicio {
@@ -75,12 +75,12 @@ h1 {
 
 .textoNosotros {
     padding: 1rem;
-    @extend %textoInformativo;
+    // @extend %textoInformativo;
 }
 
 .section2--inicio {
     grid-area: 5 / 1 / 7 / 5;
-    @extend %centrado;
+    @include centrado (center, center);
     width: 80%;
 }
 
