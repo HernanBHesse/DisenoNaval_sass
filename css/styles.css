@@ -219,12 +219,12 @@ header ul li:hover ul {
   font-size: 1rem;
   font-weight: 600; }
 
-.grilla--inicio, .section1--inicio {
+.grilla--inicio, .section1--inicio, .grilla--noticias {
   display: grid;
   grid-auto-columns: auto;
   grid-auto-rows: auto; }
 
-.section1--inicio, .section2--inicio {
+.section1--inicio, .section2--inicio, .section1--noticias {
   justify-self: center;
   align-self: center; }
 
@@ -300,19 +300,23 @@ h3 {
   grid-area: 7 / 1 / 8 / 5; }
 
 /* Noticias */
-.grilla--noticias {
+.grilla--inicio, .section1--inicio, .grilla--noticias {
   display: grid;
   grid-auto-columns: auto;
-  grid-auto-rows: auto;
+  grid-auto-rows: auto; }
+
+.section1--inicio, .section2--inicio, .section1--noticias {
+  justify-self: center;
+  align-self: center; }
+
+.grilla--noticias {
   min-height: 100vh; }
 
 .header--noticias {
   grid-area: 1 / 1 / 2 / 5; }
 
 .section1--noticias {
-  grid-area: 2 / 1 / 3 / 5;
-  justify-self: center;
-  align-self: center; }
+  grid-area: 2 / 1 / 3 / 5; }
 
 .article1--noticias {
   grid-area: 3 / 1 / 6 / 3;
