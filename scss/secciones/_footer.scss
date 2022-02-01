@@ -1,8 +1,7 @@
 /* Footer general */
 
 .footer--general {
-    justify-self: center;
-    align-self: stretch;
+    @include centrado (center, stretch);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,5 +111,5 @@
 .footer__copyright {
     text-align: center;
     font-style: italic;
-    font-weight: 500;
+    @include texto (1rem, 500);
 }
