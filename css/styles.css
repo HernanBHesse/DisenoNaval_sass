@@ -213,6 +213,34 @@ header ul li:hover ul {
   font-style: italic;
   font-weight: 500; }
 
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 0.5rem;
+  color: #000; }
+
+h2 {
+  font-size: 2.6rem;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 0.5rem;
+  color: #000; }
+
+h3 {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 0.5rem;
+  color: #000; }
+
+h4 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 0.5rem;
+  color: #000; }
+
 /* Inicio */
 .grilla--inicio {
   display: grid;
@@ -226,7 +254,6 @@ header ul li:hover ul {
 
 .section1--inicio {
   grid-area: 2 / 1 / 5 / 5;
-  justify-self: center;
   margin: 1rem;
   width: 80vw;
   display: grid;
@@ -255,6 +282,7 @@ header ul li:hover ul {
   height: 4rem; }
 
 h1 {
+  text-align: center;
   font-size: 3rem;
   font-weight: 900;
   letter-spacing: 0.5rem;

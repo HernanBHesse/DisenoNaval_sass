@@ -15,7 +15,6 @@
 
 .section1--inicio {
     grid-area: 2 / 1 / 5 / 5;
-    justify-self: center;
     margin: 1rem;
     width: 80vw;
     @include gridEstilo (grid, auto, auto);
@@ -48,6 +47,7 @@
 }
 
 h1 {
+    text-align: center;
     font-size: 3rem;
     font-weight: 900;
     letter-spacing: 0.5rem;

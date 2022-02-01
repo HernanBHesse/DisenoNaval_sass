@@ -1,0 +1,16 @@
+$titulosH: (
+    h1: 3rem,
+    h2: 2.6rem,
+    h3: 2.5rem,
+    h4: 2rem,
+);
+
+@each $etiqueta, $tamaio in $titulosH {
+    #{$etiqueta} {
+        font-size: $tamaio;
+        text-align: center;
+        font-weight: 900;
+        letter-spacing: 0.5rem;
+        color: #000;
+    }
+}
