@@ -1,10 +1,11 @@
 /* Inicio */
 
+@import './variables/tipografias';
+@import './variables/grillas';
+
 .grilla--inicio {
-    display: grid;
+    @extend %gridAuto;
     grid-auto-flow: column;
-    grid-auto-columns: auto;
-    grid-auto-rows: auto;
     min-height: 100vh;
 }
 
@@ -17,11 +18,8 @@
     justify-self: center;
     margin: 1rem;
     width: 80vw;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    justify-items: center;
-    align-items: center;
+    @extend %gridAuto;
+    @extend %centrado;
 }
 
 .titulo--inicio {
@@ -76,15 +74,12 @@ h1 {
 
 
 .textoNosotros {
-    padding: 1rem;
-    font-size: 1rem;
-    font-weight: 600;
+    @extend %textoInformativo;
 }
 
 .section2--inicio {
     grid-area: 5 / 1 / 7 / 5;
-    justify-self: center;
-    align-self: center;
+    @extend %centrado;
     width: 80%;
 }
 
