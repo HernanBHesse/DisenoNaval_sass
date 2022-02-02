@@ -3,3 +3,4 @@ Recorte la imagen de fondo utilizada en el logo de nosotros.
 Implemente una descripción en el head para que sea visible en los motores de búsqueda.
 Implemente  keywords utilizados en diferentes paginas que apuntan el mismo grupo focal.
 Las keywords utilizadas son: Náutica, Arquitectura naval, yacht design, diseño de embarcaciones, veleros, cruceros, Argentina, yates, vela, motor, funcionalidad, astillero, naval, reparación, transformación, mantenimiento, ingeniero, diseño, draga, remolcador, pontona, barcaza, pesquero, buque, multipropósito, mercante, ferry, patrullero, asistencia, suministro, arrastrero, cerquero, palangrero, atunero, carguero, tanquero, aquicultura, auxiliar, taller mecánico, barco, embarcación, succión.
+Mantengo los títulos y el shortcut icon que implemente en versiones anteriores.
