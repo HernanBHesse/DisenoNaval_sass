@@ -18,6 +18,13 @@
     margin: 0.5rem 0.5rem 1rem 1rem;
 }
 
+.fondo--proyectos {
+    margin: 0;
+    padding: 0;
+    background-color: $fondoNo;
+    box-shadow: none;
+}
+
 .contenedor__titulo--estado {
     @include centrado (center, center);
     text-align: center;
@@ -40,7 +47,8 @@
 
 .texto--barco {
     @include centrado (center, center);
-    padding: 1rem;
+    margin: 0;
+    padding: 0.3rem;
     text-align: left;
     @include texto (1.2rem, 500);
 }
@@ -63,7 +71,11 @@
 }
 
 .texto--barcoA {
-    grid-area: 3 / 2 / 5 / 4;
+    grid-area: 3 / 2 / 4 / 4;
+}
+
+.tareas--BarcoA {
+    grid-area: 4 / 2 / 5 / 4;
 }
 
 .titulo--barcoB {
@@ -75,7 +87,11 @@
 }
 
 .texto--barcoB {
-    grid-area: 6 / 2 / 8 / 4;
+    grid-area: 6 / 2 / 7 / 4;
+}
+
+.tareas--BarcoB {
+    grid-area: 7 / 2 / 8 / 4;
 }
 
 .contenedor--enObra {
@@ -96,7 +112,11 @@
 }
 
 .texto--barcoC {
-    grid-area: 3 / 2 / 5 / 4;
+    grid-area: 3 / 2 / 4 / 4;
+}
+
+.tareas--BarcoC {
+    grid-area: 4 / 2 / 5 / 4;
 }
 
 .contenedor--prototipos {
@@ -117,7 +137,11 @@
 }
 
 .texto--barcoD {
-    grid-area: 3 / 2 / 5 / 4;
+    grid-area: 3 / 2 / 4 / 4;
+}
+
+.tareas--BarcoD {
+    grid-area: 4 / 2 / 5 / 4;
 }
 
 .footer--proyectos {
